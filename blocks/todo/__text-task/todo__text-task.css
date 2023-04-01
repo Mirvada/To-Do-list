@@ -1,0 +1,9 @@
+.todo__text-task{
+  width: 800px;
+  min-height: 50px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background-color: #000;
+  font-size: 20px;
+  color: #fff;
+}

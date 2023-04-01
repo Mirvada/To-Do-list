@@ -1,0 +1,13 @@
+.todo__button{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../../images/plus.svg);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

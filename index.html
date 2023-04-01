@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PET-PROJECT</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <section class="todo">
+
+    <h1 class="todo__title">Список дел</h1>
+
+    <main class="todo__content">
+      <form class="todo__new-task">
+        <input class="todo__text-task" type="text" placeholder="Следующая задача">
+        <button class="todo__button"></button>
+      </form>
+
+      <ul class="todo__list"></ul>
+    </main>
+    
+    </div>
+
+  </section>
+
+  <template class="template" id="task">
+    <li class="template__item">
+      <span class="template__text"></span>
+      <div class="template__btn-zone">
+        <button class="template__button template__button_edit"></button>
+        <button class="template__button template__button_delete"></button>
+      </div>
+    </li>
+  </template>
+
+  <script src="./pages/index.js"></script>
+</body>
+  
+</html>
